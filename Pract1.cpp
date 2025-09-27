@@ -6,7 +6,7 @@ void main()
 {
 	setlocale(LC_ALL, "rus");
 	double hour, rate, bonus;
-	cout<< "¬вежите: отработанные часы, почасовую ствку, % премии"<<endl;
+	cout<< "¬ведите: отработанные часы, почасовую ствку, % премии"<<endl;
 	cin  >> hour >> rate >> bonus;
 	cout << "ќбща€ заработанна€ сумма:" << hour * rate * (1 + bonus / 100);
 }
