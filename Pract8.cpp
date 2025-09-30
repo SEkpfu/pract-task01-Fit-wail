@@ -53,14 +53,6 @@ void main()
         }
         sum_nalog += nalog[i];
     }
-    for (int i = 0; i < k; i++)
-    {
-        
-        cout << "\t N#" << i+1 << endl;
-        cout << gross_salary[i] << endl;
-        cout << net_salary[i] << endl;
-        cout << nalog[i] << endl;
-    }
     cout<< "Работник N№" << nom_min_salary << " получил меньше остальных" << endl;
     cout<< "Максимальная зарплата:" << max_salary << ". Получил работник N№" << nom_max_salary << endl;
     cout << "Больше 50000 получили "<< nom_rab_50.size() << " работников. Их номера:" << endl;
